@@ -1,0 +1,35 @@
+.webinar-cmpn__conditions,
+.hero__conditions {
+    position: relative;
+    font-size: 3.7vw;
+    text-align: center;
+    margin-top: 5vw;
+    font-weight: 700;
+}
+.webinar-cmpn__conditions strong,
+.hero__conditions strong {
+    color: #ff6700;
+}
+.shadow--webinar:after {
+    height: 5vw;
+}
+.td--webinar {
+    font-size: 3vw;
+    text-align: left;
+    padding: 0 4vw;
+    border-left: solid 2px #ffce00;
+}
+@media screen and (min-width: 768px) {
+    .webinar-cmpn__conditions,
+    .hero__conditions {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    .shadow--webinar:after {
+        height: 80px;
+    }
+    .td--webinar {
+        font-size: 16px;
+        padding: 5px 30px;
+    }
+}

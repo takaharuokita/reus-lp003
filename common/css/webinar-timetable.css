@@ -1,0 +1,143 @@
+.webinar-timetable {
+}
+
+.webinar-timetable__item {
+    background: #fff;
+    display: flex;
+    border-radius: 2vw;
+    justify-content: space-between;
+    overflow: hidden;
+    border: solid 1px #e1e1e1;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    margin-top: 5vw;
+}
+
+.webinar-timetable__item.disable {
+    opacity: 0.6;
+}
+
+.webinar-timetable__item.disable .webinar-timetable__button {
+    pointer-events: none;
+    background: #c4c4c4;
+}
+
+.webinar-timetable__item:first-of-type {
+    margin-top: 0;
+}
+
+.webinar-timetable__left {
+    color: #fff;
+    background: #333;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+.webinar-timetable__vertical {
+    background: #333;
+    padding: 2vw 3vw;
+    text-align: center;
+}
+.webinar-timetable__web {
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.webinar-timetable__right {
+    width: 100%;
+    display: flex;
+    padding: 2.5vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.webinar-timetable__content {
+}
+
+.webinar-timetable__date {
+    font-size: 4vw;
+    font-weight: bold;
+}
+.webinar-timetable__theme {
+    color: #ff6700;
+    font-size: 3.4vw;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.webinar-timetable__place {
+    font-size: 3.2vw;
+}
+
+.webinar-timetable__button {
+    background: #ffce00;
+    color: #fff;
+    line-height: 1;
+    border-radius: 2vw;
+    padding: 3vw 2.2vw;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.webinar-timetable__button--disable {
+    opacity: 0.7;
+}
+
+.form-error {
+    color: #ff0000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*modifier*/
+.webinar-timetable--green .webinar-timetable__button {
+    background: #00d3b2;
+}
+
+@media screen and (min-width: 768px) {
+    .webinar-timetable {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .webinar-timetable__item {
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .webinar-timetable__left {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+    .webinar-timetable__vertical {
+        padding: 10px 20px;
+    }
+    .webinar-timetable__web {
+        font-size: 18px;
+    }
+
+    .webinar-timetable__right {
+        padding: 15px 15px;
+    }
+
+    .webinar-timetable__date {
+        font-size: 22px;
+    }
+    .webinar-timetable__theme {
+        font-size: 16px;
+    }
+
+    .webinar-timetable__place {
+        font-size: 16px;
+    }
+
+    .webinar-timetable__button {
+        border-radius: 15px;
+        padding: 15px 20px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+}
