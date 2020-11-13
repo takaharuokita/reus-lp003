@@ -352,8 +352,8 @@
 .shadowbox {
     background: #fff;
     padding: 2.666666666666667vw 0;
-    border: 2px solid #ffce00;
-    box-shadow: 5px 5px 0 #ffce00;
+    border: 2px solid #496ec1;
+    box-shadow: 5px 5px 0 #496ec1;
 }
 
 .shadowbox.text {
@@ -464,9 +464,9 @@
     font-size: 5.866666666666667vw;
     font-weight: 700;
     line-height: 1.745454545454545;
-    background: -moz-linear-gradient(top, transparent 70%, #FFE67F 70%);
-    background: -webkit-linear-gradient(top, transparent 70%, #FFE67F 70%);
-    background: linear-gradient(to bottom, transparent 70%, #FFE67F 70%);
+    background: -moz-linear-gradient(top, transparent 70%, #7fff8f 70%);
+    background: -webkit-linear-gradient(top, transparent 70%, #7fff8f 70%);
+    background: linear-gradient(to bottom, transparent 70%, #7fff8f 70%);
     letter-spacing: 0.2em;
 }
 
@@ -474,17 +474,17 @@
     .maker {
         font-size: 28px;
         line-height: 1.777777777777778;
-        background: -moz-linear-gradient(top, transparent 80%, #FFE67F 80%);
-        background: -webkit-linear-gradient(top, transparent 80%, #FFE67F 80%);
-        background: linear-gradient(to bottom, transparent 80%, #FFE67F 80%);
+        background: -moz-linear-gradient(top, transparent 80%, #7fff8f 80%);
+        background: -webkit-linear-gradient(top, transparent 80%, #7fff8f 80%);
+        background: linear-gradient(to bottom, transparent 80%, #7fff8f 80%);
     }
     /* for ie11 */
     html.ie11 .maker {
         font-size: 28px;
         line-height: 1.777777777777778;
-        background: -moz-linear-gradient(top, transparent 60%, #FFE67F 60%, #FFE67F 80%, transparent 80%);
-        background: -webkit-linear-gradient(top, transparent 60%, #FFE67F 60%, #FFE67F 80%, transparent 80%);
-        background: linear-gradient(to bottom, transparent 60%, #FFE67F 60%, #FFE67F 80%, transparent 80%);
+        background: -moz-linear-gradient(top, transparent 60%, #98ffa6 60%, #7fff8f 80%, transparent 80%);
+        background: -webkit-linear-gradient(top, transparent 60%, #98ffa6 60%, #7fff8f 80%, transparent 80%);
+        background: linear-gradient(to bottom, transparent 60%, #98ffa6 60%, #7fff8f 80%, transparent 80%);
     }
 }
 
@@ -563,7 +563,7 @@ span.btn-a {
     }
     a.btn-a:hover,
     button.btn-a:hover {
-        background: #ff6700;
+        background: #12863f;
     }
     .btn-a:before {
         width: 38px;

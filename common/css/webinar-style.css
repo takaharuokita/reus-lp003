@@ -6,19 +6,23 @@
     margin-top: 5vw;
     font-weight: 700;
 }
+
 .webinar-cmpn__conditions strong,
 .hero__conditions strong {
-    color: #ff6700;
+    color: #496ec1;
 }
+
 .shadow--webinar:after {
     height: 5vw;
 }
+
 .td--webinar {
     font-size: 3vw;
     text-align: left;
     padding: 0 4vw;
-    border-left: solid 2px #ffce00;
+    border-left: solid 2px #496ec1;
 }
+
 @media screen and (min-width: 768px) {
     .webinar-cmpn__conditions,
     .hero__conditions {

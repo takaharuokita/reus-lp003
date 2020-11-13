@@ -40,6 +40,16 @@ body {
     line-height: 1.5;
     color: ##212121;
     letter-spacing: 0.05em;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE, Edge 対応 */
+    scrollbar-width: none;
+    /* Firefox 対応 */
+}
+
+body::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
 }
 
 html.no-effect * {
@@ -52,7 +62,7 @@ html.no-effect * {
 }
 
 a {
-    color: #FF6700;
+    color: #496ec1;
     text-decoration: none;
 }
 
@@ -227,7 +237,7 @@ html.is-scroll #header {
         transition: background ease 0.2s;
     }
     #header .header-entry a:hover {
-        background: #ffce00;
+        background: #12863f;
     }
 }
 
