@@ -368,7 +368,7 @@
 .shadowbox .box-txt1 {
     font-size: 4.266666666666667vw;
     font-weight: 700;
-    color: #FF6700;
+    color: #496ec1;
 }
 
 .shadowbox .box-txt2 {
@@ -438,7 +438,7 @@
     font-size: 3.733333333333333vw;
     text-align: left;
     padding: 0 4vw;
-    border-left: solid 2px #ffce00;
+    border-left: solid 2px #496ec1;
 }
 
 @media screen and (min-width:768px) {
