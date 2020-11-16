@@ -642,7 +642,7 @@
 }
 
 #oldage .section-body {
-    background: #f7f6f0;
+    background: #e8eff7;
     padding: 5.333333333333333vw 4vw;
 }
 
@@ -678,11 +678,26 @@
 }
 
 #oldage .section-body .item .txt1 .before {
-    color: #2ba097;
+    color: #0261b9;
 }
 
 #oldage .section-body .item .txt1 .after {
-    color: #ff6700;
+    color: #ff3c3c;
+}
+
+.after_red_f34 {
+    color: #ff3c3c;
+    font-size: 34px;
+}
+
+@media screen and (max-width:480px) {
+    .after_red_f34 {
+        font-size: 30px;
+    }
+}
+
+.after_red {
+    color: #ff3c3c;
 }
 
 #oldage .section-footer {
@@ -726,6 +741,9 @@
 @media screen and (max-width: 767px) {
     #oldage .section-body .item:nth-child(n + 2) {
         margin-top: 4vw;
+    }
+    #oldage .section-body .item .txt1 {
+        text-align: center;
     }
 }
 
@@ -800,7 +818,7 @@
 }
 
 #solution .section-body {
-    background: #f7f6f0;
+    background: #e8eff7;
     padding: 5.333333333333333vw 4vw;
 }
 
@@ -814,12 +832,12 @@
     font-size: 5.333333333333333vw;
     font-weight: 700;
     line-height: 1;
-    color: #ffce00;
+    color: #0261b9;
     display: inline-block;
     letter-spacing: -0.4em;
     width: 36vw;
     padding: 0.25em 0;
-    border: solid 2px #ffce00;
+    border: solid 2px #0261b9;
 }
 
 #solution .section-body .item .point>span {
@@ -860,7 +878,7 @@
 #solution .section-body .item .txt3 {
     font-size: 3.733333333333333vw;
     font-weight: 700;
-    background: #fff9e0;
+    background: #def9e1;
     text-align: left;
     padding: 1em;
     margin-top: 10.66666666666667vw;
@@ -1772,7 +1790,7 @@ html.ie11 #solution .section-body .item .point>* {
     width: 40px;
     height: 40px;
     border-radius: 30px;
-    background: #ffe57f;
+    background: #496ec1;
     position: relative;
     cursor: pointer;
     opacity: 0.7;
