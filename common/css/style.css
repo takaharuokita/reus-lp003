@@ -2500,6 +2500,7 @@ html.ie11 #solution .section-body .item .point>* {
         padding: 0;
         max-width: 1000px;
         margin: 0 auto 90px;
+        text-align: center;
     }
     #entry .section-body>.inner {
         max-width: 690px;
